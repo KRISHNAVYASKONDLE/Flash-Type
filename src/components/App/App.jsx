@@ -1,4 +1,5 @@
 import React from "react";
+import Landing from "../Landing/Landing";
 import "./App.css";
 import Nav from "../Nav/Nav";
 class App extends React.Component {
@@ -7,9 +8,8 @@ class App extends React.Component {
       <div className="app">
         {/* Nav section */}
         <Nav />
-        <h1>this is vyas</h1>
         {/* Landing Page */}
-
+        <Landing />
         {/* challenge sectin */}
 
         {/* Footer */}
