@@ -1,24 +1,23 @@
 import React from "react";
 import "./Tryagain.css";
 
-const Tryagain = ({ words, charecters, wpm, startAgain }) => {
+const Tryagain = ({ words, characters, wpm, startAgain }) => {
     return (
         <div className="try-again-container">
             <h1>Test Results</h1>
             <div className="result-container">
                 <p>
-                    <b>charecters:</b>
-                    {charecters}
+                    <b>speed:</b>
+                    {wpm}
+                </p>
+                <p>
+                    <b>characters:</b>
+                    {characters}
                 </p>
 
                 <p>
                     <b>words:</b>
                     {words}
-                </p>
-
-                <p>
-                    <b>speed:</b>
-                    {wpm}
                 </p>
             </div>
             <div>

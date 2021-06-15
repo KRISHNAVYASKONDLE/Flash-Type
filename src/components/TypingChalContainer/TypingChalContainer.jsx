@@ -20,12 +20,12 @@ const TypingChalContainer = ({
         <div className="typing-challenge-container">
             {/* details */}
             <div className="details-container">
-                {/* wods tuped */}
-                <ChalengeDetCard cardName="words" cardValue={words} />
-                {/* cher typed */}
-                <ChalengeDetCard cardName="charecters" cardValue={charecters} />
                 {/* speed */}
-                <ChalengeDetCard cardName="speed" cardValue={wpm} />
+                <ChalengeDetCard cardName="wpm" cardValue={wpm} />
+                {/* words typed */}
+                <ChalengeDetCard cardName="words" cardValue={words} />
+                {/* char typed */}
+                <ChalengeDetCard cardName="characters" cardValue={charecters} />
             </div>
             {/* THe Real Challenge */}
             <div className="typewriter-container">
