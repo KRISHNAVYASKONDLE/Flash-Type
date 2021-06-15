@@ -7,14 +7,15 @@ const Nav = () => {
             <div className="nav-left">
                 <img className="flash-logo" src={logo} alt="logo" />
                 <p className="flash-logo-text">FlashType</p>
-                <p className="nav-right"></p>
+            </div>
+            <div className="nav-right">
                 <a
                     target="blank"
                     className="nav-sd-link"
                     href="https://krishnavyaskondle.github.io/search-domains/"
                     rel="noreferrer"
                 >
-                    My other App
+                    2ndApp
                 </a>
             </div>
         </div>

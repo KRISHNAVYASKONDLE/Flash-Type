@@ -7,6 +7,7 @@ const TypingChallenge = ({
     timerStarted,
     testInfo,
     onInputChange,
+
 }) => {
     return (
         <div className="typing-challenge">

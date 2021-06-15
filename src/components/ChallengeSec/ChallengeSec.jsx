@@ -11,6 +11,7 @@ const ChallengeSec = ({
     timerStarted,
     testInfo,
     onInputChange,
+    startAgain,
 }) => {
     // console.log("From challenge section", props.selectedParagraph);
     return (
@@ -27,6 +28,7 @@ const ChallengeSec = ({
                 wpm={wpm}
                 testInfo={testInfo}
                 onInputChange={onInputChange}
+                startAgain={startAgain}
             />
         </div>
     );

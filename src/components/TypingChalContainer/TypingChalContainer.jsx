@@ -11,10 +11,12 @@ const TypingChalContainer = ({
     timeRemaining,
     timerStarted,
     testInfo,
+
     onInputChange,
 }) => {
     console.log("inside typong chale-", testInfo);
     return (
+
         <div className="typing-challenge-container">
             {/* details */}
             <div className="details-container">
@@ -33,7 +35,7 @@ const TypingChalContainer = ({
                     selectedParagraph={selectedParagraph}
                     timeRemaining={timeRemaining}
                     timerStarted={timerStarted}
-                    onInputChange={onInputChange}
+
                 />
             </div>
         </div>

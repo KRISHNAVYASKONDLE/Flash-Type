@@ -3,15 +3,7 @@ import Tryagain from "../Tryagain/Tryagain";
 import TypingChalContainer from "../TypingChalContainer/TypingChalContainer";
 import "./TestContainer.css";
 
-const TestContainer = ({
-    selectedParagraph,
-    words,
-    charecters,
-    wpm,
-    timeRemaining,
-    timerStarted,
-    testInfo,
-    onInputChange,
+const TestContainer = ({ selectedParagraph, words, charecters, wpm, timeRemaining, timerStarted, testInfo, onInputChange, startAgain,
 }) => {
     //   const timeRemaining = ;
 
@@ -28,11 +20,12 @@ const TestContainer = ({
                         wpm={wpm}
                         testInfo={testInfo}
                         onInputChange={onInputChange}
+                        startAgain={startAgain}
                     />
                 </div>
             ) : (
                 <div className="try-again-cont">
-                    <Tryagain words={words} charecters={charecters} wpm={wpm} />
+                    <Tryagain words={words} charecters={charecters} wpm={wpm} startAgain={startAgain} />
                 </div>
             )}
         </div>

@@ -13,8 +13,9 @@
     align-items: center;
 }
 .nav-right {
-    margin-right: 40px;
+    margin-right: 15px;
     text-align: end;
+    letter-spacing: 0.5px;
 }
 .flash-logo {
     margin-left: 20px;
@@ -22,7 +23,7 @@
 }
 .flash-logo-text {
     font-family: "Bangers", cursive;
-    font-size: 60px;
+    font-size: 55px;
     letter-spacing: 1px;
     margin: 0 10px;
     color: #e7e6e7;
